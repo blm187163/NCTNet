@@ -1,0 +1,15 @@
+# Local Python files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+*.key
+*.pem
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.tmp

@@ -1,0 +1,16 @@
+[0;93m2026-05-08 11:23:56.728410477 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+/home/user/.local/lib/python3.10/site-packages/torch/onnx/symbolic_opset9.py:4661: UserWarning: Exporting a model to ONNX with a batch_size other than 1, with a variable length with LSTM can cause an error when running the ONNX model with a different batch size. Make sure to save the model with a batch size of 1, or define the initial states (h0/c0) as inputs of the model. 
+  warnings.warn(
+Traceback (most recent call last):
+  File "<stdin>", line 23, in <module>
+  File "/home/user/.local/lib/python3.10/site-packages/torch/onnx/utils.py", line 516, in export
+    _export(
+  File "/home/user/.local/lib/python3.10/site-packages/torch/onnx/utils.py", line 1596, in _export
+    graph, params_dict, torch_out = _model_to_graph(
+  File "/home/user/.local/lib/python3.10/site-packages/torch/onnx/utils.py", line 1139, in _model_to_graph
+    graph = _optimize_graph(
+  File "/home/user/.local/lib/python3.10/site-packages/torch/onnx/utils.py", line 677, in _optimize_graph
+    graph = _C._jit_pass_onnx(graph, operator_export_type)
+  File "/home/user/.local/lib/python3.10/site-packages/torch/onnx/utils.py", line 1950, in _run_symbolic_function
+    raise errors.UnsupportedOperatorError(
+torch.onnx.errors.UnsupportedOperatorError: Exporting the operator 'aten::col2im' to ONNX opset version 13 is not supported. Support for this operator was added in version 18, try exporting with this version.

@@ -1,0 +1,13 @@
+ATC start working now, please wait for a moment.
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+ATC run failed, Please check the detail log, Try 'atc --help' for more information
+E10001: Value [-1] for [audio_input] is invalid. Reason: maybe you should set input_shape to specify its shape.
+

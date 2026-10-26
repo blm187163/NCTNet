@@ -1,0 +1,16 @@
+ATC start working now, please wait for a moment.
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+[libprotobuf FATAL repeated_field.cc:1304] CHECK failed: (index) < (current_size_): 
+terminate called after throwing an instance of 'ascend_private::protobuf::FatalException'
+  what():  CHECK failed: (index) < (current_size_): 
+/usr/local/Ascend/ascend-toolkit/5.20.t6.2.b060/x86_64-linux/atc/bin/atc: 第 17 行： 2682692 已中止               （核心已转储） ${PKG_PATH}/bin/atc.bin "$@"
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 91 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

@@ -1,0 +1,17 @@
+ATC start working now, please wait for a moment.
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+ATC run failed, Please check the detail log, Try 'atc --help' for more information
+E19999: Inner Error!
+        Verifying ConvTranspose_459 failed.[FUNC:InferShapeAndType][FILE:infershape_pass.cc][LINE:135]
+        Call InferShapeAndType for node:ConvTranspose_459(Conv2DTransposeD) failed[FUNC:Infer][FILE:infershape_pass.cc][LINE:117]
+        process pass InferShapePass on node:ConvTranspose_459 failed, ret:4294967295[FUNC:RunPassesOnNode][FILE:base_pass.cc][LINE:433]
+        build graph failed, graph id:0, ret:1343242270[FUNC:BuildModel][FILE:ge_generator.cc][LINE:1327]
+

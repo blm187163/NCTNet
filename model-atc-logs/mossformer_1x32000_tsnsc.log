@@ -1,0 +1,12 @@
+ATC start working now, please wait for a moment.
+ModuleNotFoundError: No module named 'te_fusion'
+ATC run failed, Please check the detail log, Try 'atc --help' for more information
+E40000: Failed to import te.platform.log_util.
+        [GraphOpt][InitializeInner][InitTbeFunc] Failed to init tbe.[FUNC:InitializeInner][FILE:tbe_op_store_adapter.cc][LINE:1189]
+        [SubGraphOpt][PreCompileOp][InitAdapter] InitializeAdapter adapter [tbe_op_adapter] failed! Ret [4294967295][FUNC:InitializeAdapter][FILE:op_store_adapter_manager.cc][LINE:63]
+        [SubGraphOpt][PreCompileOp][Init] Initialize op store adapter failed, OpsStoreName[tbe-custom].[FUNC:Initialize][FILE:op_store_adapter_manager.cc][LINE:92]
+        [FusionMngr][Init] Op store adapter manager init failed.[FUNC:Initialize][FILE:fusion_manager.cc][LINE:323]
+        PluginManager InvokeAll failed.[FUNC:Initialize][FILE:ops_kernel_manager.cc][LINE:94]
+        OpsManager initialize failed.[FUNC:InnerInitialize][FILE:gelib.cc][LINE:139]
+        GELib::InnerInitialize failed.[FUNC:Initialize][FILE:gelib.cc][LINE:93]
+

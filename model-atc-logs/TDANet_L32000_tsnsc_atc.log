@@ -1,0 +1,16 @@
+ATC start working now, please wait for a moment.
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+<frozen importlib._bootstrap>:914: ImportWarning: TBEMetaPathFinder.find_spec() not found; falling back to find_module()
+ATC run failed, Please check the detail log, Try 'atc --help' for more information
+E19999: Inner Error!
+        Param:src_out_anchor is nullptr, check invalid[FUNC:HandleInputContext][FILE:parser_utils.cc][LINE:179]
+        Model parse to graph failed, graph name:TDANet_L32000_tsnsc.[FUNC:ModelParseToGraph][FILE:onnx_parser.cc][LINE:826]
+        ATC model parse ret fail.[FUNC:ParseGraph][FILE:omg.cc][LINE:799]
+
