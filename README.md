@@ -11,7 +11,7 @@ NCTNet/
 ├── README.md                         # Repository overview
 ├── NCTNet_ONNX_ATC_DEPLOYMENT.md     # NCTNet ONNX export and ATC compilation guide
 ├── LICENSE                           # MIT license for repository source code
-├── MODEL_LICENSE.md                  # CC BY 4.0 license for converted NCTNet models
+├── MODEL_LICENSE.md                  # CC BY-NC-ND 4.0 license for converted NCTNet models
 ├── DATA_NOTICE.md                    # LibriSpeech attribution for example audio
 ├── Speech/                           # A 2-s mixture, references, and estimates
 ├── board-side inference code/        # SS928 ACL and RK3588 RKNN inference sources
@@ -103,8 +103,10 @@ Please cite the accompanying NCTNet paper when using this repository.
 
 The repository source code is released under the [MIT License](LICENSE).
 The converted NCTNet model artifacts are released under
-[CC BY 4.0](MODEL_LICENSE.md). The example audio is derived from LibriSpeech;
-its required attribution and redistribution conditions are given in
+[CC BY-NC-ND 4.0](MODEL_LICENSE.md); commercial use and redistribution of
+adapted model artifacts require prior written permission. The example audio is
+derived from LibriSpeech; its required attribution and redistribution
+conditions are given in
 [DATA_NOTICE.md](DATA_NOTICE.md).
 
 Third-party runtimes and SDKs, including Ascend ACL and RKNN, are not
