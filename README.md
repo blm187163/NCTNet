@@ -10,6 +10,7 @@ LayerNorm-C and GCAv2, with a 2-s input block at 16 kHz.
 NCTNet/
 ├── README.md                         # Repository overview
 ├── NCTNet_ONNX_ATC_DEPLOYMENT.md     # NCTNet ONNX export and ATC compilation guide
+├── ENVIRONMENT.md                     # Recorded deployment environment and artifact checksums
 ├── LICENSE                           # MIT license for repository source code
 ├── MODEL_LICENSE.md                  # CC BY-NC-ND 4.0 license for converted NCTNet models
 ├── DATA_NOTICE.md                    # LibriSpeech attribution for example audio
@@ -54,6 +55,8 @@ artifacts only. The training source code, checkpoint, model-definition code,
 and intermediate ONNX file are not included. The recorded ONNX conversion
 parameters, operator mapping, and ATC command are documented in
 [`NCTNet_ONNX_ATC_DEPLOYMENT.md`](NCTNet_ONNX_ATC_DEPLOYMENT.md).
+The recorded deployment environment and artifact checksums are in
+[`ENVIRONMENT.md`](ENVIRONMENT.md).
 
 For questions about the training implementation, contact the authors at
 [`blm187163@163.com`](mailto:blm187163@163.com).

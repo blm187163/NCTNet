@@ -9,6 +9,9 @@ works unchanged across all Ascend toolkits.
 For questions about the training implementation, contact the authors at
 `blm187163@163.com`.
 
+The recorded deployment environment, including known versions and artifact
+checksums, is listed in [`ENVIRONMENT.md`](ENVIRONMENT.md).
+
 ## 1. Included Files
 
 | Path | Purpose |
